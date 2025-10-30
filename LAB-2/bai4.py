@@ -3,9 +3,10 @@ import numpy as np
 from torch.utils.data import DataLoader
 from torch import nn, optim
 from sklearn.metrics import f1_score, precision_score, recall_score
+from transformers import ResNetForImageClassification
 
-from model.ResNet import ResNet18       
 from data_utils.vinafood_dataset import VinaFood, collate_fn
+from model.pretrained_resnet import PretrainedResnet  
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -26,10 +27,11 @@ def evaluate(dataloader: DataLoader, model: nn.Module) -> dict:
             true_labels.extend(label.cpu().numpy().tolist())
 
     return {
-        "f1": f1_score(true_labels, predictions, average="macro"),  
+        "f1": f1_score(true_labels, predictions, average="macro"),
         "precision": precision_score(true_labels, predictions, average="macro"),
         "recall": recall_score(true_labels, predictions, average="macro")
     }
+
 
 if __name__ == "__main__":
     train_dataset = VinaFood(
@@ -42,25 +44,24 @@ if __name__ == "__main__":
 
     train_dataloader = DataLoader(
         dataset=train_dataset,
-        batch_size=32,
+        batch_size=16,
         shuffle=True,
         collate_fn=collate_fn
     )
 
     test_dataloader = DataLoader(
         dataset=test_dataset,
-        batch_size=64,
+        batch_size=32,
         shuffle=False,
         collate_fn=collate_fn
     )
 
-    num_classes = 21
-    model = ResNet18(num_classes=num_classes, input_channels=3).to(device)
+    model = PretrainedResnet().to(device)
     criterion = nn.CrossEntropyLoss()
-    optimizer = optim.Adam(model.parameters(), lr=0.001)
+    optimizer = optim.Adam(model.parameters(), lr=1e-4)
 
-    num_epochs = 10
-    for epoch in range(num_epochs):  
+    num_epochs = 5
+    for epoch in range(num_epochs):
         model.train()
         running_loss = 0.0
 
@@ -77,5 +78,5 @@ if __name__ == "__main__":
             running_loss += loss.item()
 
         metrics = evaluate(test_dataloader, model)
-        print(f"Epoch {epoch+1}/{num_epochs} - F1: {metrics['f1']:.4f}, Precision: {metrics['precision']:.4f}, Recall: {metrics['recall']:.4f}")
-        
+        print(f"Epoch {epoch+1}/{num_epochs} - F1: {metrics['f1']:.4f}, Precision: {metrics['precision']:.4f}, Recall: {metrics['recall']:.4f}")    
+
