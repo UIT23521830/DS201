@@ -1,1 +1,11 @@
-2025-11-26 23:38:56,085 - INFO - Start training bài 3 (BiLSTMEncoder - PhoNER):
+2025-11-26 16:47:42,010 - INFO - Start training bài 3 (BiLSTMEncoder - PhoNER):
+2025-11-26 16:54:55,147 - INFO - Epoch 1/10 | F1: 0.4006 | Precision: 0.4070 | Recall: 0.4020
+2025-11-26 17:02:12,391 - INFO - Epoch 2/10 | F1: 0.5594 | Precision: 0.6286 | Recall: 0.5419
+2025-11-26 17:09:25,029 - INFO - Epoch 3/10 | F1: 0.6664 | Precision: 0.7654 | Recall: 0.6466
+2025-11-26 17:16:42,907 - INFO - Epoch 4/10 | F1: 0.6928 | Precision: 0.7594 | Recall: 0.6790
+2025-11-26 17:23:57,327 - INFO - Epoch 5/10 | F1: 0.7510 | Precision: 0.7801 | Recall: 0.7359
+2025-11-26 17:31:10,151 - INFO - Epoch 6/10 | F1: 0.7662 | Precision: 0.7816 | Recall: 0.7609
+2025-11-26 17:38:23,452 - INFO - Epoch 7/10 | F1: 0.7690 | Precision: 0.8070 | Recall: 0.7542
+2025-11-26 17:45:40,971 - INFO - Epoch 8/10 | F1: 0.7692 | Precision: 0.8072 | Recall: 0.7409
+2025-11-26 17:52:54,532 - INFO - Epoch 9/10 | F1: 0.7615 | Precision: 0.7663 | Recall: 0.7584
+2025-11-26 18:00:08,846 - INFO - Epoch 10/10 | F1: 0.7775 | Precision: 0.8235 | Recall: 0.7484
