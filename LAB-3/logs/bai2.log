@@ -1,0 +1,11 @@
+2025-11-26 15:15:52,859 - INFO - Start training bài 2 - GRU(label - sentiment):
+2025-11-26 15:22:00,608 - INFO - Epoch 1/10 | F1: 0.6990 | Precision: 0.7941 | Recall: 0.6802
+2025-11-26 15:28:08,642 - INFO - Epoch 2/10 | F1: 0.6904 | Precision: 0.7614 | Recall: 0.6766
+2025-11-26 15:34:18,004 - INFO - Epoch 3/10 | F1: 0.7685 | Precision: 0.8278 | Recall: 0.7412
+2025-11-26 15:40:25,513 - INFO - Epoch 4/10 | F1: 0.7899 | Precision: 0.8113 | Recall: 0.7745
+2025-11-26 15:46:34,677 - INFO - Epoch 5/10 | F1: 0.7933 | Precision: 0.8010 | Recall: 0.7864
+2025-11-26 15:52:41,459 - INFO - Epoch 6/10 | F1: 0.7524 | Precision: 0.8242 | Recall: 0.7248
+2025-11-26 15:58:53,541 - INFO - Epoch 7/10 | F1: 0.8127 | Precision: 0.8299 | Recall: 0.7993
+2025-11-26 16:05:04,318 - INFO - Epoch 8/10 | F1: 0.8049 | Precision: 0.8442 | Recall: 0.7802
+2025-11-26 16:11:16,541 - INFO - Epoch 9/10 | F1: 0.7988 | Precision: 0.7995 | Recall: 0.7986
+2025-11-26 16:17:28,757 - INFO - Epoch 10/10 | F1: 0.7981 | Precision: 0.8273 | Recall: 0.7780

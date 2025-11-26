@@ -1,0 +1,11 @@
+2025-11-26 22:25:24,144 - INFO - Start training bài 1 - LSTM(label - sentiment):
+2025-11-26 22:27:37,222 - INFO - Epoch 1/10 | F1: 0.5003 | Precision: 0.5062 | Recall: 0.5119
+2025-11-26 22:29:32,809 - INFO - Epoch 2/10 | F1: 0.5481 | Precision: 0.5359 | Recall: 0.5625
+2025-11-26 22:31:29,756 - INFO - Epoch 3/10 | F1: 0.6336 | Precision: 0.6366 | Recall: 0.6315
+2025-11-26 22:33:38,082 - INFO - Epoch 4/10 | F1: 0.5719 | Precision: 0.5666 | Recall: 0.5888
+2025-11-26 22:35:55,275 - INFO - Epoch 5/10 | F1: 0.6366 | Precision: 0.7060 | Recall: 0.6312
+2025-11-26 22:38:17,994 - INFO - Epoch 6/10 | F1: 0.7077 | Precision: 0.7056 | Recall: 0.7103
+2025-11-26 22:40:37,498 - INFO - Epoch 7/10 | F1: 0.7408 | Precision: 0.7314 | Recall: 0.7536
+2025-11-26 22:43:02,308 - INFO - Epoch 8/10 | F1: 0.7011 | Precision: 0.7006 | Recall: 0.7055
+2025-11-26 22:45:15,492 - INFO - Epoch 9/10 | F1: 0.7053 | Precision: 0.7016 | Recall: 0.7158
+2025-11-26 22:47:21,940 - INFO - Epoch 10/10 | F1: 0.7192 | Precision: 0.7078 | Recall: 0.7467
