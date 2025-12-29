@@ -1,0 +1,29 @@
+2025-12-29 03:45:58 - INFO - Logger initialized
+2025-12-29 03:45:58 - INFO - Log file: logs/baibai1.log
+2025-12-29 03:45:58 - INFO - Start Bài 1 - Transformer Encoder Domain Classification (UIT-ViOCD)
+2025-12-29 03:45:58 - INFO - Loading training text for vocab...
+2025-12-29 03:45:58 - INFO - Building vocabulary...
+2025-12-29 03:45:58 - INFO - Vocab size = 4631
+2025-12-29 03:45:58 - INFO - Number of domains = 4
+2025-12-29 03:48:34 - INFO - Epoch 1/20 | Loss: 0.6761 | Dev F1: 0.7842
+2025-12-29 03:51:04 - INFO - Epoch 2/20 | Loss: 0.3912 | Dev F1: 0.8313
+2025-12-29 03:53:33 - INFO - Epoch 3/20 | Loss: 0.2754 | Dev F1: 0.8296
+2025-12-29 03:56:03 - INFO - Epoch 4/20 | Loss: 0.1794 | Dev F1: 0.8223
+2025-12-29 03:58:39 - INFO - Epoch 5/20 | Loss: 0.1268 | Dev F1: 0.8196
+2025-12-29 04:01:09 - INFO - Epoch 6/20 | Loss: 0.0843 | Dev F1: 0.8411
+2025-12-29 04:03:40 - INFO - Epoch 7/20 | Loss: 0.0673 | Dev F1: 0.8411
+2025-12-29 04:06:10 - INFO - Epoch 8/20 | Loss: 0.0610 | Dev F1: 0.8478
+2025-12-29 04:08:40 - INFO - Epoch 9/20 | Loss: 0.0485 | Dev F1: 0.8488
+2025-12-29 04:11:09 - INFO - Epoch 10/20 | Loss: 0.0366 | Dev F1: 0.8514
+2025-12-29 04:13:38 - INFO - Epoch 11/20 | Loss: 0.0245 | Dev F1: 0.8596
+2025-12-29 04:16:07 - INFO - Epoch 12/20 | Loss: 0.0212 | Dev F1: 0.8690
+2025-12-29 04:18:36 - INFO - Epoch 13/20 | Loss: 0.0198 | Dev F1: 0.8620
+2025-12-29 04:21:05 - INFO - Epoch 14/20 | Loss: 0.0236 | Dev F1: 0.8708
+2025-12-29 04:23:35 - INFO - Epoch 15/20 | Loss: 0.0227 | Dev F1: 0.8634
+2025-12-29 04:26:05 - INFO - Epoch 16/20 | Loss: 0.0604 | Dev F1: 0.8408
+2025-12-29 04:28:33 - INFO - Epoch 17/20 | Loss: 0.0471 | Dev F1: 0.8651
+2025-12-29 04:31:02 - INFO - Epoch 18/20 | Loss: 0.0270 | Dev F1: 0.8575
+2025-12-29 04:33:31 - INFO - Epoch 19/20 | Loss: 0.0243 | Dev F1: 0.8675
+2025-12-29 04:36:02 - INFO - Epoch 20/20 | Loss: 0.0160 | Dev F1: 0.8684
+2025-12-29 04:36:02 - INFO - Evaluating on test set...
+2025-12-29 04:36:09 - INFO - Final Test F1 (macro): 0.8848

@@ -1,0 +1,14 @@
+2025-12-28 20:17:39 - INFO - Logger initialized
+2025-12-28 20:17:39 - INFO - Log file: logs/bai2.log
+2025-12-28 20:17:39 - INFO - Bài 2 - Transformer Encoder 3 layers cho PhoNER
+2025-12-28 20:20:46 - INFO - Epoch 1/10 | Loss: 0.5292 | Dev F1: 0.8753
+2025-12-28 20:23:47 - INFO - Epoch 2/10 | Loss: 0.2189 | Dev F1: 0.9090
+2025-12-28 20:26:48 - INFO - Epoch 3/10 | Loss: 0.1426 | Dev F1: 0.9108
+2025-12-28 20:29:47 - INFO - Epoch 4/10 | Loss: 0.1055 | Dev F1: 0.9233
+2025-12-28 20:32:49 - INFO - Epoch 5/10 | Loss: 0.0769 | Dev F1: 0.9145
+2025-12-28 20:35:48 - INFO - Epoch 6/10 | Loss: 0.0596 | Dev F1: 0.9320
+2025-12-28 20:38:50 - INFO - Epoch 7/10 | Loss: 0.0462 | Dev F1: 0.9313
+2025-12-28 20:41:50 - INFO - Epoch 8/10 | Loss: 0.0374 | Dev F1: 0.9292
+2025-12-28 20:44:50 - INFO - Epoch 9/10 | Loss: 0.0313 | Dev F1: 0.9343
+2025-12-28 20:47:52 - INFO - Epoch 10/10 | Loss: 0.0245 | Dev F1: 0.9353
+2025-12-28 20:48:16 - INFO - Final Test F1: 0.9296
